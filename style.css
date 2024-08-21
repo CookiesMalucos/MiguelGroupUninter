@@ -1,0 +1,331 @@
+
+/* Corpo */
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Formulário */
+.forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    margin: 0;
+    width: 90%;
+    text-align: left;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 300;
+}
+
+/* Rodapé */
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    background-color: #090979;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 300;
+}
+
+/* Fundo do Site*/
+main {
+    background: rgba(0,121,181,0.75);
+    background: -moz-linear-gradient(left, rgba(0,121,181,0.75) 0%, rgba(255,255,255,0.8) 19%, rgba(255,255,255,0.95) 80%, rgba(0,121,181,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,121,181,0.75)), color-stop(19%, rgba(255,255,255,0.8)), color-stop(80%, rgba(255,255,255,0.95)), color-stop(100%, rgba(0,121,181,1)));
+    background: -webkit-linear-gradient(left, rgba(0,121,181,0.75) 0%, rgba(255,255,255,0.8) 19%, rgba(255,255,255,0.95) 80%, rgba(0,121,181,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,121,181,0.75) 0%, rgba(255,255,255,0.8) 19%, rgba(255,255,255,0.95) 80%, rgba(0,121,181,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,121,181,0.75) 0%, rgba(255,255,255,0.8) 19%, rgba(255,255,255,0.95) 80%, rgba(0,121,181,1) 100%);
+    background: linear-gradient(to right, rgba(0,121,181,0.75) 0%, rgba(255,255,255,0.8) 19%, rgba(255,255,255,0.95) 80%, rgba(0,121,181,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0079b5', endColorstr='#0079b5', GradientType=1 );
+}
+
+/* Container para parte de "Formação" */
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    align-self: start;
+    padding-left: 7%;
+}
+
+/* Container para parte principal do site junto com mimoji*/
+.containerhome2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container para parte principal do site junto com mimoji*/
+.containerhome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25%;
+    padding-top: 10%;
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%);
+}
+
+/* seta para baixo no circulo */
+.setaparabaixo {
+    width: 50px;
+    height: 50px;
+    background-color: #090979;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: setaparabaixo 2s infinite;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.5s, color 0.5s, border 0.5s, transform 0.5s, box-shadow 0.5s, padding 0.5s, margin 0.5s, font-size 0.5s, line-height 0.5s, font-weight 0.5s, text-decoration 0.5s;
+}
+
+/* Regra das fotos e Mimojis das fotos */
+.container .foto01 {
+    width: 25%;
+    border-radius: 10% 10% 10% 10%;
+    padding-left: 0%;
+    background-color: #2c3553;
+    padding-bottom: -50px;
+}
+
+/* Regra das fotos de Mimojis  */
+.memoji {
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    padding-left: 30%;
+}
+/* Tamanho da foto do nome Miguel de Paiva Oliveira  */
+.fotoprincipalnome {
+    width: 55%;
+}
+
+/* Regra de textos */
+.areadetexto {
+    max-width: 600px;
+}
+/* Regra de textos */
+.areadetexto h1 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #1b1b1b;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 40px;
+}
+/* Regra de textos */
+.areadetexto p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+    padding-left: 40px;
+}
+/* Regra de textos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+}
+/* Regra de textos e estilo do cabeçalho */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #090979;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    z-index: 1000;
+    -webkit-box-shadow: 9px 25px 13px -23px rgba(0,0,0,0.54);
+    -moz-box-shadow: 9px 25px 13px -23px rgba(0,0,0,0.54);
+    box-shadow: 9px 25px 13px -23px rgba(0,0,0,0.54);
+}
+/* Regra de estilo dos texto do cabeçalho */
+.Logo01 {
+    width: 250px;
+}
+/* Regra de estilo dos texto do cabeçalho */
+.navegacao ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+/* Regra de estilo dos texto do cabeçalho */
+.navegacao ul li {
+    margin-left: 20px;
+}
+/* Regra de estilo dos texto do cabeçalho */
+.navegacao ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+/* Regra de estilo dos texto do cabeçalho */
+.navegacao ul li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 8px;
+    transition: background-color 0.5s, padding 0.5s;
+}
+/* Regra de estilo corpo */
+main {
+    padding-top: 60px;
+}
+/* Regra de estilo corpo */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+/* Regra de estilo dos texto  */
+section h2 {
+    margin-top: 0;
+}
+/* Regra de estilo dos texto  */
+section h4 {
+   border-radius: 8px;
+   align-items: left;
+   text-align: left;
+   background-color: #ff0000;
+}
+/* Regra de estilo dos texto  */
+h4 {
+    font-size: 24px;
+    color: #200049;
+    padding: 2px;
+    margin: 0px;
+    text-align: left;
+    padding-left: 40px;
+}
+/* Regra de estilo dos texto  */
+.contatoform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    margin-top: 40px;
+}
+/* Regra de estilo dos texto  */
+.contatoform input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Regra de estilo dos texto  */
+.contatoform textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Regra de estilo dobotao do formulario */
+.contatoform button {
+    width:30%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #090979;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Regra de estilo dobotao do formulario */
+.contatoform button:hover {
+    background-color: #090979;
+    color: white;
+}
+/* Regra de estilo dos texto  */
+.contatoform h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #1b1b1b;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 40px;
+}
+/* Regra de estilo dos texto  */
+.contatoform p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+    padding-left: 40px;
+}
+/* Regra de estilo das iamgens do formulario  */
+.contatoform img {
+    background-color: #e3e9ff;
+    padding-bottom: -50px;
+}
+
+/* Regra de estilo dos texto do link de acesso a sites externos */
+.linkdeacesso {
+   text-transform: uppercase;
+   background-color: #1b1b1b;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
