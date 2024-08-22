@@ -329,3 +329,276 @@ h4 {
     border-radius: 8px;
     margin-top: 10px;
 }
+
+
+
+/* responsividade */
+
+
+
+@media (max-width: 425px) {
+    .container {
+        flex-direction: column;
+    }
+    .forms {
+        padding-left: 0;
+    }
+    .foto01 {
+        width: 100%;
+    }
+    .memoji {
+        width: 100%;
+        padding-left: 0;
+    }
+    .areadetexto {
+        padding-left: 0;
+    }
+    .areadetexto h1 {
+        padding-left: 0;
+    }
+    .areadetexto p {
+        padding-left: 0;
+    }
+    .containerhome {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .containerhome2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .container1 {
+        padding-left: 0;
+    }
+    .fotoprincipalnome {
+        width: 100%;
+    }
+    .setaparabaixo {
+        display: none;
+    }
+    .contatoform {
+        padding-left: 0;
+    }
+    .contatoform img {
+        width: 100%;
+    }
+    .contatoform h2 {
+        padding-left: 0;
+    }
+    .contatoform p {
+        padding-left: 0;
+    }
+    .contatoform button {
+        width: 100%;
+    }
+    .contatoform input {
+        width: 100%;
+    }
+    .contatoform textarea {
+        width: 100%;
+    }
+    .linkdeacesso {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .forms {
+        padding-left: 0;
+    }
+    .foto01 {
+        width: 100%;
+    }
+    .memoji {
+        width: 100%;
+        padding-left: 0;
+    }
+    .areadetexto {
+        padding-left: 0;
+    }
+    .areadetexto h1 {
+        padding-left: 0;
+    }
+    .areadetexto p {
+        padding-left: 0;
+    }
+    .containerhome {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .containerhome2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .container1 {
+        padding-left: 0;
+    }
+    .fotoprincipalnome {
+        width: 100%;
+    }
+    .setaparabaixo {
+        display: none;
+    }
+    .contatoform {
+        padding-left: 0;
+    }
+    .contatoform img {
+        width: 100%;
+    }
+    .contatoform h2 {
+        padding-left: 0;
+    }
+    .contatoform p {
+        padding-left: 0;
+    }
+    .contatoform button {
+        width: 100%;
+    }
+    .contatoform input {
+        width: 100%;
+    }
+    .contatoform textarea {
+        width: 100%;
+    }
+    .linkdeacesso {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+    .forms {
+        padding-left: 0;
+    }
+    .foto01 {
+        width: 100%;
+    }
+    .memoji {
+        width: 100%;
+        padding-left: 0;
+    }
+    .areadetexto {
+        padding-left: 0;
+    }
+    .areadetexto h1 {
+        padding-left: 0;
+    }
+    .areadetexto p {
+        padding-left: 0;
+    }
+    .containerhome {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .containerhome2
+    {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .container1 {
+        padding-left: 0;
+    }
+    .fotoprincipalnome {
+        width: 100%;
+    }
+    .setaparabaixo {
+        display: none;
+    }
+    .contatoform {
+        padding-left: 0;
+    }
+    .contatoform img {
+        width: 100%;
+    }
+    .contatoform h2 {
+        padding-left: 0;
+    }
+    .contatoform p {
+        padding-left: 0;
+    }
+    .contatoform button {
+        width: 100%;
+    }
+    .contatoform input {
+        width: 100%;
+    }
+    .contatoform textarea {
+        width: 100%;
+    }
+    .linkdeacesso {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .container {
+        flex-direction: column;
+    }
+    .forms {
+        padding-left: 0;
+    }
+    .foto01 {
+        width: 100%;
+    }
+    .memoji {
+        width: 100%;
+        padding-left: 0;
+    }
+    .areadetexto {
+        padding-left: 0;
+    }
+    .areadetexto h1 {
+        padding-left: 0;
+    }
+    .areadetexto p {
+        padding-left: 0;
+    }
+    .containerhome {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .containerhome2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .container1 {
+        padding-left: 0;
+    }
+    .fotoprincipalnome {
+        width: 100%;
+    }
+    .setaparabaixo {
+        display: none;
+    }
+    .contatoform {
+        padding-left: 0;
+    }
+    .contatoform img {
+        width: 100%;
+    }
+    .contatoform h2 {
+        padding-left: 0;
+    }
+    .contatoform p {
+        padding-left: 0;
+    }
+    .contatoform button {
+        width: 100%;
+    }
+    .contatoform input {
+        width: 100%;
+    }
+    .contatoform textarea {
+        width: 100%;
+    }
+    .linkdeacesso {
+        width: 100%;
+    }
+}
+
